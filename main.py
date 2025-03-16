@@ -13,8 +13,8 @@ from pystyle import Colors, Colorate
 
 from cpmtooldev import CPMTooldev
 
-__CHANNEL_USERNAME__ = "BaldanShopChannel"
-__GROUP_USERNAME__   = "BaldanShopChat"
+__CHANNEL_USERNAME__ = "TarganJackChannel"
+__GROUP_USERNAME__   = "TarganJackChat"
 
 def signal_handler(sig, frame):
     print("\n Bye Bye...")
@@ -39,7 +39,7 @@ def gradient_text(text, colors):
 
 def banner(console):
     os.system('cls' if os.name == 'nt' else 'clear')
-    brand_name =  "Car Parking Multiplayer 1 Tool - t.me/Kayzen1P"
+    brand_name =  "Car Parking Multiplayer 1 Tool"
     colors = [
         "rgb(255,0,0)", "rgb(255,69,0)", "rgb(255,140,0)", "rgb(255,215,0)", "rgb(173,255,47)", 
         "rgb(0,255,0)", "rgb(0,255,255)", "rgb(0,191,255)", "rgb(0,0,255)", "rgb(139,0,255)",
@@ -196,11 +196,11 @@ if __name__ == "__main__":
             print(Colorate.Horizontal(Colors.rainbow, '{31}: Custom Car Brake         2K'))
             print(Colorate.Horizontal(Colors.rainbow, '{0} : Exit'))
             
-            print(Colorate.Horizontal(Colors.rainbow, '===============[ ʙᴀʟᴅᴀɴ ]==============='))
+            print(Colorate.Horizontal(Colors.rainbow, '===============[ Jack ]==============='))
             
             service = IntPrompt.ask(f"[bold][?] Select a Service [red][1-{choices[-1]} or 0][/red][/bold]", choices=choices, show_choices=False)
             
-            print(Colorate.Horizontal(Colors.rainbow, '===============[ ʙᴀʟᴅᴀɴ ]==============='))
+            print(Colorate.Horizontal(Colors.rainbow, '===============[ Jack ]==============='))
             
             if service == 0: # Exit
                 print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
